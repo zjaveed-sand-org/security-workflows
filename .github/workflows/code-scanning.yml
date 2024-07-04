@@ -2,6 +2,7 @@ name: "Centralized Code Scanning"
 
 on: 
   merge_group:
+  workflow_dispatch:
   workflow_call:
     inputs:
         # used by CodeQL to define which languages to scan
